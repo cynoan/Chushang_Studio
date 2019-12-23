@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body.preload{
+    -webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
+#nav #nav_microfilm{
+    width: 170px;
+    content: url(../img/nav/microfilm1.png);
+    background: #3661a1;
+    box-shadow: 0 0 8px 0 #3661a1;
+}
+
+#video_show{
+    width: 100%;
+    min-width: 1330px;
+}
+#video_show #video_title{
+    display: block;
+    margin: 90px auto 50px;
+}
+#video_show #video{
+    width: 100%;
+    min-width: 1330px;
+}
+#style_display{
+    width: 1200px;
+    margin: 0 auto 173px;
+}
+#style_display #style_title{
+    display: block;
+    margin: 90px auto 48px;
+}
+
+#style_display #style_content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#style_display .style_pic{
+    display: block;
+    width: 575px;
+    height: 370px;
+    transition: all 0.3s;
+}
+
+#style_display .style:nth-child(2)~.style{
+    margin-top: 78px;
+}
+#style_display .style_msg{
+    font-size: 20px;
+    margin-top: 16px;
+}
+#style_display .style>div{
+    position: relative;
+}
+
+#style_display .style .mask{
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 575px;
+    height: 370px;
+    background-image: url(../img/microfilm/mask.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#style_display .style>div:hover .mask{
+    opacity: 0.8;
+    background-image: url(../img/icon/play.png);
+    cursor: pointer;
+}
+#style_display .style>div:hover img{
+    box-shadow: 0 0 25px 0 #666;
+}

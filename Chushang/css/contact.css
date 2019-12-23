@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+#nav #nav_contact{
+    width: 170px;
+    content: url(../img/nav/contact1.png);
+    background: #3661a1;
+    box-shadow: 0 0 8px 0 #3661a1;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner>div{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+#banner>div>span{
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 32px;
+    color: #343434;
+    text-align: center;
+}
+#banner>div>a{
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 36px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background: #3561a0;
+    top: 55px;
+}
+
+#contact{
+    width: 1200px;
+    margin: 0 auto;
+}
+#contact #contact_title{
+    display: block;
+    margin: 20px auto;
+}
+#contact #contact_way{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#contact #contact_way img:nth-child(3),
+#contact #contact_way img:nth-child(4){
+    margin-top: 10px;
+}
+
+#balistore{
+    display: block;
+    width: 1200px;
+    margin: 59px auto 49px;
+}
+
+#balistore_pic{
+    display: block;
+    width: 1200px;
+    height: 525px;
+    margin: 0 auto;
+    background-image: url(../img/contact/bali1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -200px;
+}
+
+#balistore_pic+img{
+    display: block;
+    margin: 30px auto;
+}
