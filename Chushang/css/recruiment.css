@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+#nav #nav_recruiment{
+    width: 170px;
+    content: url(../img/nav/recruiment1.png);
+    background: #3661a1;
+    box-shadow: 0 0 8px 0 #3661a1;
+}
+
+#recruiment{
+    width: 1200px;
+    margin: 0 auto;
+}
+#recruiment #recruiment_title{
+    display: block;
+    margin: 23px auto 90px;
+}
+#recruiment #introduction_top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#recruiment #introduction_top img,
+#recruiment #introduction_top p{
+    display: block;
+    width: 600px;
+    height: 600px;
+}
+#recruiment #introduction_top p{
+    padding: 162px 20px 0;
+}
+
+#recruiment #introduction_bottom{
+    display: flex;
+    margin-top: 89px;
+}
+#recruiment #introduction_bottom img{
+    display: block;
+    width: 686px;
+    cursor: pointer;
+}
+#recruiment #introduction_bottom p{
+    padding: 93px 20px 0;
+}
+#recruiment p{
+    box-sizing: border-box;
+    display: block;
+    color: #999999;
+    font-size: 18px;
+}
+#recruiment #position_title{
+    display: block;
+    margin:83px auto 87px;
+}
+
+#recruiment #position{
+    margin: 0 auto;
+}
+#recruiment #position_img{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#recruiment #post>div{
+    margin-top: 26px;
+}
+#recruiment #post .post_title{
+    display: block;
+    font-size: 26px;
+    margin-bottom: 26px;
+}
+#recruiment #post .post_msg{
+    font-size: 20px;
+}
+#recruiment #post .post_mark{
+    font-size: 18px;
+    color: #999999;
+}
+#recruiment #post div div:not(:nth-child(1)){
+    margin-left: 20px;
+    height: 36px;
+}
+#recruiment #post>div:nth-last-child(1){
+    position: relative;
+    height: 45px;
+    margin-bottom: 190px;
+}
+#recruiment #post a{
+    position: absolute;
+    display: flex;
+    right: 0;
+    width: 150px;
+    height: 45px;
+    background: #5c7698;
+    color: #fff;
+    border-radius: 4px;
+}
+#recruiment #post a img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 45px;
+    margin: 7.5px;
+}
+#recruiment #post a span{
+    display: block;
+    font-size: 20px;
+    line-height: 45px;
+    margin-left: 2px;
+}
+
+
