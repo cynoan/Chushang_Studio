@@ -9,7 +9,18 @@ body.preload{
 }
 
 body{
-    min-width: 1480px;
+    min-width: 1619px;
+}
+top{
+    display: block;
+    width: 100%;
+    min-width: 1619px;
+}
+nav{
+    min-width: 1619px;
+}
+#hr{
+    min-width: 1619px;
 }
 
 #nav #nav_home{
@@ -326,13 +337,15 @@ body{
 }
 #about{
     height: 840px;
-    width: 1920px;
+    width: 100%;
+    min-width: 1619px;
     margin: 132px auto;
 }
 #contact{
     position: relative;
     height: 988px;
-    width: 1920px;
+    width: 100%;
+    min-width: 1619px;
     margin: 0 auto 200px;
 }
 #about>img{
@@ -347,7 +360,8 @@ body{
 }
 #contact p{
     display: block;
-    margin: 0 auto;
+    position: absolute;
+    right: 830px;
     width: 260px;
     text-align: center;
     font-size: 26px;
